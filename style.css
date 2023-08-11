@@ -33,11 +33,10 @@ menu {
 }
 
 /* // стилі всі картинок для зручної роботи з ними */
-/* img {
-  display: block;
+img {
   max-width: 100%;
   height: auto;
-} */
+}
 
 /* // клас для приховування елементів */
 /* .hidden {
@@ -152,6 +151,18 @@ body {
 }
 .features-item {
   flex-basis: calc((100% - 4 * 30px) / 4);
+}
+
+.features-item-title::before {
+  content: "";
+  width: 270px;
+  height: 120px;
+  display: inline-block;
+  background-image: url(img/antenna\ 1.png), url(img/astronaut\ 1.png),
+    url(img/clock\ 1.png), url(img/diagram\ 1.png);
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .features-item-title {
