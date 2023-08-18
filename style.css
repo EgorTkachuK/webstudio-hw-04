@@ -114,13 +114,17 @@ body {
   color: #2196f3;
 }
 .hero {
-  background-color: #000000;
+  /* background-color: #000000; */
   height: 600px;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  background-image: url(img/Img\(15\).jpg);
+  background-repeat: no-repeat;
+  width: 100%;
 }
+
 .hero-title {
   color: #fff;
   font-size: 44px;
@@ -128,6 +132,10 @@ body {
   line-height: 1.36;
   letter-spacing: 2.64px;
   text-transform: uppercase;
+}
+.hero:nth-child(1) h1::before {
+  content: "";
+  background-image: url(img/Img\(15\).jpg);
 }
 
 .hero-button {
@@ -152,18 +160,58 @@ body {
 .features-item {
   flex-basis: calc((100% - 4 * 30px) / 4);
 }
+.features-item:nth-child(1) h3::before {
+  content: "";
+  background-image: url(img/antenna1.png);
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+.features-item:nth-child(2) h3::before {
+  content: "";
+  background-image: url(img/astronaut1.png);
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+.features-item:nth-child(3) h3::before {
+  content: "";
+  background-image: url(img/clock\ 1.png);
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
+.features-item:nth-child(4) h3::before {
+  content: "";
+  background-image: url(img/diagram\ 1.png);
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-block;
+}
 
-.features-item-title::before {
+/* .features-item-title::before {
   content: "";
   width: 270px;
   height: 120px;
   display: inline-block;
-  background-image: url(img/antenna\ 1.png), url(img/astronaut\ 1.png),
-    url(img/clock\ 1.png), url(img/diagram\ 1.png);
+  background-image: url(img/antenna1.png), url(img/astronaut1.png),
+    url(img/clock1.png), url(img/diagram1.png);
   background-color: #f5f4fa;
   background-repeat: no-repeat;
   background-position: center;
-}
+} */
 
 .features-item-title {
   color: #212121;
