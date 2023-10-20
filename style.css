@@ -439,10 +439,7 @@ padding-top: 94px;
 .title-work{
   margin-bottom: 50px;
 }
-.work-img-div{
-  display: flex;
-  column-gap: 30px;
-}
+
 .team-title{
   padding-top: 94px;
   color: #212121;
@@ -453,4 +450,31 @@ font-size: 36px;
 font-weight: 700;
 letter-spacing: 1.08px;
 padding-bottom: 50px;
+}
+.work-list{
+  display: flex;
+  column-gap: 30px;
+}
+.work-text-div{
+  background-color: #2F303ACC;
+  position: relative;
+  bottom: 70px;
+  width: 370px;
+  height: 70px;
+  /* padding-bottom: 1px; */ 
+  z-index: 2;
+  /* background: rgba(47, 48, 58, 0.80); */
+  
+}
+.work-text{
+  color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.42px;
+text-transform: uppercase;
+padding-bottom: 27px;
+padding-top: 27px;
+/* background-color: #2F303ACC; */
 }
