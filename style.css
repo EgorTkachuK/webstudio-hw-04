@@ -457,14 +457,14 @@ padding-bottom: 50px;
 }
 .work-text-div{
   background-color: #2F303ACC;
-  position: relative;
+  position: absolute;
   bottom: 70px;
   width: 370px;
   height: 70px;
   /* padding-bottom: 1px; */ 
   z-index: 2;
   /* background: rgba(47, 48, 58, 0.80); */
-  
+  top: 224px;
 }
 .work-text{
   color: #FFF;
@@ -477,4 +477,7 @@ text-transform: uppercase;
 padding-bottom: 27px;
 padding-top: 27px;
 /* background-color: #2F303ACC; */
+}
+.work-list-item{
+  position: relative;
 }
