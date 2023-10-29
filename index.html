@@ -61,7 +61,7 @@
           Ефективні рішення для <br />
           вашого бізнесу
         </h1>
-        <button class="hero-button">Замовити послугу</button>
+        <button class="hero-button btn-opn" data-modal-open>Замовити послугу</button>
       </section>
       <section class="features container">
         <ul class="menu features-list">
@@ -129,21 +129,21 @@
           </li>
         </ul>
       </section>
-      <section class="work">
-        <div class="conteiner">
+      <section class="work container">
+    
           <h2 class="title-work">Чим ми займаємося</h2>
         
             <ul class="work-list conteiner">
               <li class="work-list-item">
-          <img
-            class="work-img"
-            src="img/box1.jpg"
-            alt="1.1"
-            width="370px"
-            height="294px"
-          />
-          <div class="work-text-div">
-          <p class="work-text">Десктопні додатки</p>
+                <img
+                class="work-img"
+                src="img/box1.jpg"
+                alt="1.1"
+               width="370px"
+               height="294px"
+                 />
+               <div class="work-text-div">
+                <p class="work-text">Десктопні додатки</p>
          
               </li>
           <li class="work-list-item">
@@ -171,10 +171,11 @@
           </li>
         </div>
         </ul>
-        </div>
+     
        
       </section>
-      <section class="team">
+          <section class="team">
+      <div class="container">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list">
           <li class="team-item">
@@ -187,7 +188,7 @@
             />
             <h3 class="team-subtitle">Ігор Дем'яненко</h3>
             <p class="team-text">Product Designer</p>
-            <div>
+            
               <ul class="team-svg-list"> 
                 <li class="team-svg-item">
               <svg   width=" 20px";
@@ -197,25 +198,25 @@
               </svg>
             </li>
             <li class="team-svg-item">
-              <svg  width=" 20px";
-              height=" 20px";>
+              <svg  width="20";
+              height="20";>
                 <use href="img/symbol-defs.svg#icon-twitter"></use>
               </svg>
             </li>
             <li class="team-svg-item">
-              <svg  width=" 20px";
-              height=" 20px";>
+              <svg  width="20";
+              height="20";>
                 <use href="img/symbol-defs.svg#icon-facebook"></use>
               </svg>
             </li>
             <li class="team-svg-item">
-              <svg  width=" 20px";
-              height=" 20px";>
+              <svg  width="20";
+              height="20";>
                 <use href="img/symbol-defs.svg#icon-linkedin"></use>
               </svg>
             </li>
             </ul>
-            </div>
+            
           </li>
           <li class="team-item">
             <img
@@ -338,7 +339,7 @@
             </div>
           </li>
         </ul>
-        
+      </div>
       </section>
       <section class="clients container">
         <h2 class="svg-title">Постійні клієнти</h2>
@@ -383,7 +384,8 @@ height="60px"
       </ul>
       </section>
     </main>
-    <footer class="footer container">
+    <footer class="footer ">
+    <div class="container">
       <a href="#" class="footer-logo"
         ><span class="spanweb"> Web</span>Studio</a
       >
@@ -399,6 +401,85 @@ height="60px"
           >
         </li>
       </ul>
-    </footer>
+    </div>
+
+     <div class="backdrop is-hidden" data-modal>
+       <div class="modal">
+          <button class="btn" data-modal-close>
+            <svg width=" 18px"
+            height="18px">
+              <use href="img/symbol-defs.svg#icon-cross"></use>
+            </svg>
+          </button>
+          <h3 class="modal-title">Залиште свої дані, ми вам передзвонимо</h3>
+         <form action="">
+          <label class="name-form">
+            <h4 class="form-title">Ім'я</h4>
+            <div class="modal-input-div">
+        <input type="text" name="username" required class="modal-input">
+          <svg width=" 18px"
+          height="18px"
+          class="modal-icon icon-person">
+            <use href="img/symbol-defs.svg#icon-person"></use>
+          </svg>
+        </div>
+        </label >
+        <label class="phone-form">
+          <h4 class="form-title">Телефон </h4>
+          <div class="modal-input-div">
+      <input type="tel" name="phone" required class="modal-input ">
+        <svg width=" 18px"
+        height="18px"
+        class="modal-icon icon-phone">
+          <use href="img/symbol-defs.svg#icon-phone"></use>
+        </svg>
+      </div>
+      </label >
+          <label class="emain-form">
+              <h4 class="form-title">Пошта </h4>
+              <div class="modal-input-div">
+          <input type="email" name="email" required class="modal-input">
+            <svg width=" 18px"
+            height="18px"
+            class="modal-icon icon-email">
+              <use href="img/symbol-defs.svg#icon-email"></use>
+            </svg>
+          </div>
+          </label >
+          <label class="coment-form">
+            <h4 class="form-title">Коментар </h4>
+            <div class="modal-coment-div">
+           <textarea name="coment" id=""  rows="5" placeholder="Введіть текст" class="coment"></textarea>
+       
+        </div>
+  
+
+
+          <label class="checkbox-form">
+            
+            <div class=" spam">
+                   <div>
+                      <input type="checkbox" name="done" value="Погоджуюся з розсилкою та приймаю Умови договору " checked>
+                   </div>
+                   <div class="spam-text-div">
+                    <p class="spam-text">Погоджуюся з розсилкою та приймаю</p> 
+                   <a href="#" class="spam-link">Умови договору </a>
+                   </div>
+             </div>
+         </label > 
+
+
+        
+          
+
+         
+          </form>
+             <div class="submit-div">
+               <button type="submit " class="modal-sumbit">Відправити</button>
+             </div>
+  </div>
+     </div>
+ </footer>
+    <script src="./modal.js"></script>
   </body>
 </html>
