@@ -21,24 +21,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="portfolio-body">
-    <header class="header">
+    <header class="header container">
+      <a href="#" class="logo"><span class="spanweb"> Web</span>Studio</a>
       <nav class="header-nav">
-        <a href="#" class="logo"><span class="spanweb"> Web</span>Studio</a>
-        <ul class="nav-list">
-          <li class="nav-list"><a href="index.html">Студія</a></li>
-          <li class="nav-list"><a href="portfolio.html">Портфоліо</a></li>
-          <li class="nav-list"><a href="#">Контакти</a></li>
+        <ul class="header-nav-list">
+          <li class="header-nav-item"><a href="index.html" class="nav-link  ">Студія</a></li>
+          <li class="header-nav-item">
+            <a href="/" class="nav-link active">Портфоліо</a>
+          </li>
+          <li class="header-nav-item"><a href="#">Контакти</a></li>
         </ul>
       </nav>
-      <ul class="header-list">
-        <li class="header-item">
-          <a href="mailto:info@devstudio.com" class="item-contact"
-            >info@devstudio.com</a
-          >
+      <ul class="list-contact-header">
+        <li class="contact-item">
+          <a href="mailto:info@devstudio.com"
+            ><svg width="16" height="12" class="svg-contact">
+              <use href="img/symbol-defs.svg#icon-envelope"></use>
+            </svg>info@devstudio.com</a>
         </li>
-        <li class="header-item">
-          <a href="tel:+380961111111" class="header-contact"
-            >+38 096 111 11 11</a
+       
+
+        <li class="contact-item">
+          
+          <a href="tel:+380961111111">
+            <svg width="16" height="12" class="svg-contact">
+              <use href="img/symbol-defs.svg#icon-smartphone"></use>
+              </svg>+38 096 111 1 11</a
           >
         </li>
       </ul>
@@ -59,65 +67,110 @@
           <ul class="list-card">
             <li class="card-item">
               <div class="card">
-                <img class="card-img" src="img/img (14).jpg" alt="_" />
+                <div class="overlay-div-hidden first">
+                  <div class="overlay">
+                     <p class="footer-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  </div>
+               </div>
                 <h2 class="titel-card">Технокряк</h2>
                 <p class="text-card">Веб-сайт</p>
+               
               </div>
             </li>
             <li class="card-item">
               <div class="card">
-                <img class="card-img" src="img/img (6).jpg" alt="_" />
+                <div class="overlay-div-hidden second">
+                  <div class="overlay">
+                     <p  class="footer-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  </div>
+               </div>
                 <h2 class="titel-card">Постер New Orlean vs Golden Star</h2>
                 <p class="text-card">Дизайн</p>
+              
               </div>
             </li>
             <li class="card-item">
               <div class="card">
-                <img class="card-img" src="img/img (7).jpg" alt="_" />
+                <div class="overlay-div-hidden third">
+                  <div class="overlay">
+                     <p class="footer-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  </div>
+               </div>
                 <h2 class="titel-card">Ресторан Seafood</h2>
                 <p class="text-card">Додаток</p>
+                
               </div>
             </li>
             <li class="card-item">
               <div class="card">
-                <img class="card-img" src="img/img (8).jpg" alt="_" />
+                <div class="overlay-div-hidden fourth">
+                  <div class="overlay">
+                     <p class="footer-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  </div>
+               </div>
                 <h2 class="titel-card">Проєкт Prime</h2>
                 <p class="text-card">Маркетинг</p>
+                
               </div>
             </li>
             <li class="card-item">
               <div class="card">
-                <img src="img/img (9).jpg" alt="_" />
+                <div class="overlay-div-hidden fifth">
+                  <div class="overlay">
+                     <p  class="footer-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  </div>
+               </div>
                 <h2 class="titel-card">Проєкт Boxes</h2>
                 <p class="text-card">Додаток</p>
+              
               </div>
             </li>
             <li class="card-item">
               <div class="card">
-                <img class="card-img" src="img/img (10).jpg" alt="_" />
+                <div class="overlay-div-hidden sixth">
+                  <div class="overlay">
+                     <p  class="footer-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  </div>
+               </div>
                 <h2 class="titel-card">Inspiration has no Borders</h2>
                 <p class="text-card">Веб-сайт</p>
+                
               </div>
             </li>
             <li class="card-item">
               <div class="card">
-                <img class="card-img" src="img/img (11).jpg" alt="_" />
+                <div class="overlay-div-hidden seventh">
+                  <div class="overlay">
+                     <p  class="footer-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  </div>
+               </div>
                 <h2 class="titel-card">Видання Limited Edition</h2>
                 <p class="text-card">Дизайн</p>
+               
               </div>
             </li>
             <li class="card-item">
               <div class="card">
-                <img class="card-img" src="img/img (12).jpg" alt="_" />
+                <div class="overlay-div-hidden eighth">
+                  <div class="overlay">
+                     <p  class="footer-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  </div>
+               </div>
                 <h2 class="titel-card">Проєкт LAB</h2>
                 <p class="text-card">Маркетинг</p>
+                
               </div>
             </li>
             <li class="card-item">
               <div class="card">
-                <img class="card-img" src="img/img (13).jpg" alt="_" />
+                <div class="overlay-div-hidden ninth">
+                  <div class="overlay">
+                     <p  class="footer-overlay-text">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                  </div>
+               </div>
                 <h2 class="titel-card">Growing Business</h2>
                 <p class="text-card">Додаток</p>
+               
               </div>
             </li>
           </ul>
@@ -146,6 +199,7 @@
         <p class="porfolio-footer-text">Підпишіться на розсилку</p>
         <label><input type="email" name="email" /> </label>
       </div>
+          
     </footer>
   </body>
 </html>
