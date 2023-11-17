@@ -108,22 +108,34 @@ body {
   justify-self: flex-end;
   /* padding-bottom: 32px; */
 }
-.header-nav-item > a {
+.header-nav-item  a {
   color: #212121;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 
 .header-nav-item:hover a {
-  color: #2196f3;
+  color: #2196F3;
+ 
+  /* animation-name: changeColor;
+  animation-duration: 250ms; */
 }
 
 .contact-item > a {
   color: #757575;
-
+  color: #212121;
+  transition-property: color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 .contact-item:hover > a {
   color: #2196f3;
 }
 .contact-item:hover {
+  
  fill: #2196f3;
 
 }
@@ -318,6 +330,11 @@ body {
    border-color: #F5F4FA;
   border-radius: 3px;
   box-shadow: none;
+  color: #212121;
+  transition-property: background-color color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 .buttonportfolio:hover {
   background-color: #2196f3;
@@ -352,10 +369,23 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 30px;
 }
 .card-item {
   flex-basis: calc((100% - 4 * 30px) / 3);
+  position: relative;
+  width: 370px;
+  height: 404px;
+  
+  
 }
+.box-img{
+  overflow: hidden;
+  width: 370px;
+  height: 290px;
+  position: relative;
+}
+/* .card-item img{overflow: hidden;} */
 
 .footer-logo{
   font-family: Raleway;
@@ -410,6 +440,11 @@ padding-top: 94px;
   justify-content: center;
   align-items: center;
   padding: 12px;
+  color: #212121;
+  transition-property:  background-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
 .team-svg-item:hover  {
   background-color:#2196F3 ;
@@ -428,7 +463,11 @@ padding-top: 94px;
   border-radius: 4px;
  padding: 16px 32px;
  fill: #AFB1B8;
- 
+ color: #212121;
+ transition-property:  background-color fill;
+ transition-duration: 250ms;
+ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+ transition-delay: 250ms;
 }
 .client-svg-item:hover{
   fill: #2196F3;
@@ -550,6 +589,10 @@ letter-spacing: 0.42px;
   fill: #000000;
   border: 1px solid  rgba(0, 0, 0, 0.10);
   background-color: #FFF;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
  }
  .btn:hover{
   fill: #2196F3;
@@ -765,6 +808,10 @@ padding: 12px;
 background-color:rgba(255, 255, 255, 0.10);
 fill: #fff;
 border-radius: 50%;
+transition-property:  background-color fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-delay:250ms;
 }
 .footer-icon-item:hover  {
   background-color:#2196F3 ;
@@ -848,9 +895,13 @@ margin-left: 12px;
 
   
   transform: translateX(-100%);
-  transition: transform 250ms ease;
+  /* transition: transform 250ms ease; */
+  transition-property: transform;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 250ms;
 }
-.overlay-div-hidden:hover .overlay {
+.card-item:hover .overlay {
   transform: translatey(0);
   
 }
@@ -864,78 +915,7 @@ margin-left: 12px;
   background-repeat:no-repeat;
 }
 
-.overlay-div-hidden .second{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
- background-image: url(img/img\(6\).jpg);
-  overflow: hidden;
-  background-repeat:no-repeat;
-}
-.overlay-div-hidden .third{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
- background-image: url(img/img\(7\).jpg);
-  overflow: hidden;
-  background-repeat:no-repeat;
-}
-.overlay-div-hidden .fourth{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
- background-image: url(img/img\(8\).jpg);
-  overflow: hidden;
-  background-repeat:no-repeat;
-}
-.overlay-div-hidden .fifth{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
- background-image: url(img/img\(9\).jpg);
-  overflow: hidden;
-  background-repeat:no-repeat;
-}
-.overlay-div-hidden .sixth{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
- background-image: url(img/img\(10\).jpg);
-  overflow: hidden;
-  background-repeat:no-repeat;
-}
-.overlay-div-hidden .seventh{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
- background-image: url(img/img\(11\).jpg);
-  overflow: hidden;
-  background-repeat:no-repeat;
-}
-.overlay-div-hidden .eighth{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
- background-image: url(img/img\(12\).jpg);
-  overflow: hidden;
-  background-repeat:no-repeat;
-}
-.overlay-div-hidden .ninth{
-  position: relative;
-  width: 300px;
-  height: 300px;
-  margin: 0 auto;
- background-image: url(img/img\(13\).jpg);
-  overflow: hidden;
-  background-repeat:no-repeat;
-}
+
 .footer-overlay-text{
   color: #FFF;
 font-family: Roboto;
@@ -948,4 +928,13 @@ padding-top: 63px;
 padding-bottom: 63px;
 padding-left: 23px;
 padding-right: 23px;
+}
+
+@keyframes changeColor{
+0% { fill:  #2196F3;}
+100%{ fill: #2196F3;}
+}
+@keyframes changeBgColor{
+  0% { background-color: #2196F3;}
+100%{ background-color: #2196F3;}
 }
