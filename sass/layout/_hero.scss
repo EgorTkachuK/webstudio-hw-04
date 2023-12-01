@@ -1,0 +1,41 @@
+.hero {
+    /* background-color: #000000; */
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(img/Img\(15\).jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  .hero-title {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 2.64px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .hero:nth-child(1) h1::before {
+    content: "";
+    background-image: url(img/Img\(15\).jpg);
+  }
+  
+  .hero-button {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: 700;
+    line-height: 1.875;
+    letter-spacing: 0.96px;
+    background-color: #2196f3;
+    justify-content: space-between 30px;
+    border-color: #2196f3;
+    border-radius: 4px;
+    height: 50px;
+    width: 216px;
+  }

@@ -1,0 +1,122 @@
+.footer{
+    background-color:#2F303A;
+    display: flex;
+    padding-bottom: 60px;
+  }
+  .footer-item-contact{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    letter-spacing: 0.42px;
+  }
+  .footer-item-link{
+    color: rgba(255, 255, 255, 0.60);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
+  }
+  .footer-div{
+    display: flex;
+  }
+  .footer-icon-list{
+    display: flex;
+    column-gap: 10px;
+  }
+  .footer-icon-title{
+    color: #FFF;
+  font-family: Roboto;
+  font-size: 14px;
+  
+  font-weight: 700;
+  
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  }
+  .footer-logo-div{
+    padding-top: 60px;
+    padding-right: 70px;
+  }
+  .footer-icon-div{
+    padding-top: 72px;
+  }
+  .footer-lable{
+    width: 358px;
+  height: 50px;
+  background-color: #2F303A;
+  border: 1px solid rgba(255, 255, 255, 0.30);
+  border-radius: 4px;
+  }
+  .footer-logo{
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 26px;
+    color: white;
+    text-decoration: none;
+  }
+  .footer-list {
+    color: #fff;
+  }
+  .footer-icon-item{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+    background-color:rgba(255, 255, 255, 0.10);
+    fill: #fff;
+    border-radius: 50%;
+    transition-property:  background-color fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay:250ms;
+    }
+    .footer-icon-item:hover  {
+      animation-name:changeBgColor ,changeColorFillWhite;
+      animation-duration: 250ms;
+      animation-fill-mode: forwards;
+      
+     
+      border-radius: 50%;
+     
+      /* padding-left: 12px;
+      padding-top: 12px;
+      padding-right: 12px;
+      padding-left: 12px; */
+    
+    }
+    .fotter-spam-div{
+        display: flex;
+      }
+      .fotter-spam-lable-div{
+        padding-top: 72px;
+        padding-left: 93px;
+      }
+      .footer-spam-title{
+        color: #FFF;
+      font-family: Roboto;
+      font-size: 14px;
+      
+      font-weight: 700;
+      
+      letter-spacing: 0.42px;
+      text-transform: uppercase;
+      padding-bottom: 20px;
+      }
+      .footer-button{
+        background-color: #2196F3;
+        width: 200px;
+      height: 50px;
+      border-radius: 4px;
+      fill: #FFF;
+      color: #FFF;
+      margin-top: 108px;
+      margin-left: 12px;
+      }

@@ -1,0 +1,59 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "playfair disply";
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+} */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}/*# sourceMappingURL=reset.css.map */
