@@ -27,14 +27,15 @@
     height: 38px;
   }
   .buttonportfolio:hover {
-    animation-name:changeBgColor , changeColorWhite ;
-    animation-duration: 250ms;
-    animation-fill-mode: forwards;
-   
+    // animation-name:changeBgColor , changeColorWhite ;
+    // animation-duration: 250ms;
+    // animation-fill-mode: forwards;
+   background-color:$color-hover ;
+   color:$color-features-backgrond ;
    
   }
   .titelportfolio {
-    color: #212121;
+    color: $color-main;
     font-size: 18px;
   
     font-weight: 700;
@@ -67,7 +68,7 @@
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
-    color: white;
+    color: $color-features-backgrond;
     text-decoration: none;
   }
   .overlay {
@@ -94,7 +95,7 @@
     
   }
   .footer-overlay-text{
-    color: #FFF;
+    color: $color-features-backgrond;
   font-family: Roboto;
   font-size: 18px;
   

@@ -11,14 +11,14 @@
     flex-basis: calc((100% - 4 * 30px) / 4);
   }
   .features-svg-div{
-    background-color: #F5F4FA;
+    background-color: $color-features-backgrond;
     /* width: 270px;
     height: 120px; */
     margin-bottom: 30px;
     padding: 25px 100px;
   }
   .features-item-title {
-    color: #212121;
+    color: $color-main;
     /* text-align: center; */
     font-size: 14px;
     font-weight: 700;
@@ -28,7 +28,7 @@
   }
   
   .features-item-text {
-    color: #757575;
+    color: $color-icon-header;
     font-size: 14px;
   
     line-height: 1.71;

@@ -22,7 +22,7 @@
    width: 528px;
    height: 581px;
     padding: 40px;
-    background-color: #FFF;
+    background-color: $color-features-backgrond;
     transform: translate(-50%, -50%);
   
    }
@@ -41,18 +41,19 @@
     justify-content: center;
     align-items: center;
     padding: 6px;
-    fill: #000000;
+    fill: $color-main;
     border: 1px solid  rgba(0, 0, 0, 0.10);
-    background-color: #FFF;
+    background-color: $color-features-backgrond;
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transition-delay: 250ms;
    }
    .btn:hover{
-    animation-name:changeColorFill ;
-    animation-duration: 250ms;
-    animation-fill-mode: forwards;
+    // animation-name:changeColorFill ;
+    // animation-duration: 250ms;
+    // animation-fill-mode: forwards;
+    fill: $color-hover;
    }
    
    .modal-icon{
@@ -60,7 +61,7 @@
     /* right: 380px; */
     left: 11px;
     top: 12px;
-  fill: #000000;
+  fill: $color-main;
    }
    .modal-input{
     /* position: absolute;
@@ -82,12 +83,12 @@
    }
    .modal-input:focus{
     
-  border: 1px solid #2196F3;
+  border: 1px solid $color-hover;
   outline: none;
   
    }
    .modal-input:focus + .modal-icon{
-    fill: #2196F3;
+    fill: $color-hover;
    }
 
    .modal-title{
@@ -115,7 +116,7 @@
   line-height: 30px; /* 187.5% */
   letter-spacing: 0.96px;
   padding: 10px 52px;
-  background-color: #2196F3;
+  background-color: $color-hover;
   border: none;
   border-radius: 5px;
   
@@ -133,7 +134,7 @@
     margin-bottom: 10px;
    }
    .wrap-modal-input:focus{
-  fill: #2196F3;
+  fill: $color-hover;
    }
  
    .coment{
@@ -162,7 +163,7 @@
     display: flex;
    }
    .form-title{
-    color: #757575;
+    color: $color-icon-header;
   
   font-size: 12px;
   
@@ -171,7 +172,7 @@
   letter-spacing: 0.12px;
    }
    .spam-text{
-    color: #757575;
+    color: $color-icon-header;
   
     font-size: 12px;
    
@@ -180,7 +181,7 @@
     letter-spacing: 0.36px;
    }
    .spam-link{
-    color: #757575;
+    color: $color-icon-header;
     
     font-size: 12px;
     

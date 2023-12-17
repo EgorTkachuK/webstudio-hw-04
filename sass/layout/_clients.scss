@@ -3,30 +3,31 @@
   padding-top: 94px;
   
   }
-  .svg-title{
+  .clients_title{
     margin-bottom: 50px;
     text-align: center;
   
   }
-  .svg-list{
+  .clients_list{
     display: flex;
   
     column-gap: 30px;
   }
-  .client-svg-item{
-    border: solid 1px #AFB1B8;
+  .client-list_item{
+    border: solid 1px $color-icon;
     border-radius: 4px;
    padding: 16px 32px;
-   fill: #AFB1B8;
-   color: #212121;
-   transition-property:  background-color fill;
-   transition-duration: 250ms;
-   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-   transition-delay: 250ms;
+   fill: $color-icon;
+   color: $color-main;
+  //  transition-property:  background-color ;
+  //  transition-duration: 250ms;
+  //  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  //  transition-delay: 250ms;
   }
-  .client-svg-item:hover{
-    animation-name:changeColorFill ,changeBorColor;
-    animation-duration: 250ms;
-    animation-fill-mode: forwards;
-  
+  .client-list_item:hover{
+    // animation-name:changeColorFill ,changeBorColor;
+    // animation-duration: 250ms;
+    // animation-fill-mode: forwards;
+    fill: $color-hover;
+   border-color:$color-hover ;
   }

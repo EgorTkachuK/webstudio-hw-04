@@ -1,49 +1,49 @@
 @keyframes changeColorFill {
   0% {
-    fill: #2196F3;
+    fill: #2196f3;
   }
   100% {
-    fill: #2196F3;
+    fill: #2196f3;
   }
 }
 @keyframes changeBgColor {
   0% {
-    background-color: #2196F3;
+    background-color: #2196f3;
   }
   100% {
-    background-color: #2196F3;
+    background-color: #2196f3;
   }
 }
 @keyframes changeColor {
   0% {
-    color: #2196F3;
+    color: #2196f3;
   }
   100% {
-    color: #2196F3;
+    color: #2196f3;
   }
 }
 @keyframes changeColorWhite {
   0% {
-    color: #FFF;
+    color: #fff;
   }
   100% {
-    color: #FFF;
+    color: #fff;
   }
 }
 @keyframes changeColorFillWhite {
   0% {
-    fill: #2196F3;
+    fill: #FFF;
   }
   100% {
-    fill: #2196F3;
+    fill: #FFF;
   }
 }
 @keyframes changeBorColor {
   0% {
-    border-color: #2196F3;
+    border-color: #2196f3;
   }
   100% {
-    border-color: #2196F3;
+    border-color: #2196f3;
   }
 }
 @keyframes translay {
@@ -53,4 +53,8 @@
   100% {
     transform: translatey(0);
   }
-}/*# sourceMappingURL=keyframes.css.map */
+}
+/* padding-left: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-left: 12px; */

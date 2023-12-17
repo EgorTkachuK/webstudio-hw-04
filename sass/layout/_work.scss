@@ -17,7 +17,7 @@
     position: relative;
   }
   .work-text-div{
-    background-color: #2F303ACC;
+    background-color: $color-footer;
     position: absolute;
     bottom: 70px;
     width: 100%;
@@ -28,7 +28,7 @@
     top: 224px;
   }
   .work-text{
-    color: #FFF;
+    color: $color-features-backgrond;
   text-align: center;
   font-family: Roboto;
   font-size: 14px;

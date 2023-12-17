@@ -1,21 +1,16 @@
-@import "base/reset.scss";
-@import "layout/header";
-@import "layout/footer";
-@import "layout/clients";
-@import "layout/features";
-@import "layout/hero";
-@import "layout/modal";
-@import "layout/team";
-@import "layout/work";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
-@import "";
+
+
+@import "base/_reset";
+@import "base/_keyframes";
+@import "untils/variables";
+@import "untils/placeholders";
+@import "layout/_header";
+@import "layout/_footer";
+@import "layout/_clients";
+@import "layout/_features";
+@import "layout/_hero";
+@import "layout/_modal";
+@import "layout/_team";
+@import "layout/_work";
+
+
