@@ -29,8 +29,8 @@
     /* display: flex; */
     background-color: $color-features-backgrond;
     box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-   width: 270px;
-   height:  428px;
+   width: 480px;
+  //  height:  428px;
   }
   .team-subtitle{
     margin-top: 30px;
@@ -41,9 +41,7 @@
     color: $color-icon;
   }
   .team-svg-list{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @extend %flex ;
     fill: $color-icon;
     column-gap: 10px;
     margin-top: 15px;
@@ -54,9 +52,7 @@
   .team-svg-item{
     width: 44px;
     height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @extend %flex ;
     padding: 12px;
     background-color: transparent;
     color: $color-main;
@@ -88,4 +84,22 @@
     animation-name:changeColorFillWhite;
     animation-duration: 250ms;
     animation-fill-mode: forwards;
+  }
+  @media screen and (min-width: 768px) {
+    .team-item{
+      width: 354px;
+      }
+      .team-img{
+      width: 354px;
+      }
+      
+  }
+  @media screen and (min-width: 1200px) {
+    .team-item{
+      width: 270px;
+      }
+      .team-img{
+      width: 270px;
+      }
+      
   }

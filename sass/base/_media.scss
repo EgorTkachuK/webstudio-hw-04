@@ -1,0 +1,153 @@
+
+@media screen and (min-width: 480px) {
+    .container {
+      width: 480px;
+    }
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container {
+      width: 768px;
+    }
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container {
+      width: 1200px;
+    }
+  }
+
+
+@media screen and (min-width: 480px) {
+//   .header-nav{display: none;}
+.features-list{
+    flex-direction: column;
+}
+.features-item-title {
+justify-self: center;
+}
+.work{
+    display: none;
+}
+.team-list{
+    flex-direction: column;
+}
+.clients_list{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-item{
+    margin-bottom: 30px;
+}
+.client-list_item{
+    margin-bottom: 30px;
+}
+.footer-div{
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.fotter-spam-lable-div{
+
+}
+.features-svg-div{
+  padding: 0px 190px;
+
+}
+.team-item{
+width: 480px;
+}
+.team-img{
+width: 480px;
+}
+}
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+      .header-nav{display: flex;}
+.list-contact-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.features-item {
+    flex-basis: calc((100% - 2 * 30px) / 4);
+  }
+
+
+    .features-list{
+        // flex-direction: column;
+        
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+       
+    }
+    .features-item-title {
+      display: flex;
+    justify-self: start;
+    }
+    .work{
+        display: none;
+    }
+    .team-list{
+        // flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .clients_list{
+        flex-wrap: wrap;
+    }
+    .team-item{
+        margin-bottom: 30px;
+    }
+    .client-list_item{
+        margin-bottom: 30px;
+    }
+    .tablet-center{
+        display: flex;
+    }
+    .footer-div{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .team-item{
+      width: 354px;
+      }
+      .team-img{
+        width: 354px;
+      }
+      .team-list{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+      }
+    }
+
+
+    @media screen and (min-width: 1200px) {
+
+      .work{
+        display: block;
+      }
+      .features-list{
+        margin-bottom: 118px;
+      }
+      .clients_list{
+        flex-wrap: nowrap;
+      }
+      .footer-div{
+        flex-direction: row;
+      }
+      .footer-icon-list{
+       margin-right: 93px;
+      }
+      }
+
+
+
