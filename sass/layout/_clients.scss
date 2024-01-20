@@ -1,3 +1,7 @@
+
+
+
+
 .clients{
     margin-bottom: 94px;
   padding-top: 94px;
@@ -11,12 +15,14 @@
   .clients_list{
     display: flex;
   
-    column-gap: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+        justify-content: center;
   }
   .client-list_item{
     border: solid 1px $color-icon;
     border-radius: 4px;
-   padding: 16px 32px;
+//    padding: 16px 32px;
    fill: $color-icon;
    color: $color-main;
   //  transition-property:  background-color ;
@@ -31,3 +37,48 @@
     fill: $color-hover;
    border-color:$color-hover ;
   }
+  @media screen and (min-width: 768px){
+    .client-list_item{
+           padding: 16px 32px;
+    }
+  }
+  @media screen and (min-width: 1200px){
+    .clients_list{
+        flex-wrap: nowrap;
+    }
+  }
+
+
+// .clients{
+//     margin-bottom: 94px;
+//   padding-top: 94px;
+  
+//   }
+//   .clients_title{
+//     margin-bottom: 50px;
+//     text-align: center;
+  
+//   }
+//   .clients_list{
+//     display: flex;
+  
+//     column-gap: 30px;
+//   }
+//   .client-list_item{
+//     border: solid 1px $color-icon;
+//     border-radius: 4px;
+//    padding: 16px 32px;
+//    fill: $color-icon;
+//    color: $color-main;
+//   //  transition-property:  background-color ;
+//   //  transition-duration: 250ms;
+//   //  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//   //  transition-delay: 250ms;
+//   }
+//   .client-list_item:hover{
+//     // animation-name:changeColorFill ,changeBorColor;
+//     // animation-duration: 250ms;
+//     // animation-fill-mode: forwards;
+//     fill: $color-hover;
+//    border-color:$color-hover ;
+//   }

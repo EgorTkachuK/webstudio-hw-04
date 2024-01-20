@@ -2,6 +2,7 @@
     background-color:$color-footer;
     display: flex;
     padding-bottom: 60px;
+    justify-content: center;
   }
   .footer-item-contact{
     color: rgba(255, 255, 255, 0.60);
@@ -23,6 +24,10 @@
   }
   .footer-div{
     display: flex;
+   
+    flex-direction: column;
+    justify-content: center;
+
   }
   .footer-icon-list{
     display: flex;
@@ -45,9 +50,10 @@
   }
   .footer-icon-div{
     padding-top: 72px;
+ 
   }
   .footer-lable{
-    width: 358px;
+width: 300px;
   height: 50px;
   background-color: $color-footer;
   border: 1px solid rgba(255, 255, 255, 0.30);
@@ -93,6 +99,8 @@
     }
     .fotter-spam-div{
         display: flex;
+        flex-direction: column;
+        justify-content: center;
       }
       .fotter-spam-lable-div{
         padding-top: 72px;
@@ -111,11 +119,142 @@
       }
       .footer-button{
         background-color: $color-hover;
-        width: 200px;
-      height: 50px;
+        // width: 200px;
+        height: 50px;
+        
       border-radius: 4px;
       fill: $color-features-backgrond;
       color: $color-features-backgrond;
       margin-top: 108px;
       margin-left: 12px;
       }
+      @media screen and (min-width: 768px){
+
+      }
+
+      @media screen and (min-width: 1200px){
+
+      }
+
+
+// .footer{
+//     background-color:$color-footer;
+//     display: flex;
+//     padding-bottom: 60px;
+//   }
+//   .footer-item-contact{
+//     color: rgba(255, 255, 255, 0.60);
+//     font-family: Roboto;
+//     font-size: 14px;
+//     font-style: normal;
+//     font-weight: 400;
+//     line-height: 24px; /* 171.429% */
+//     letter-spacing: 0.42px;
+//   }
+//   .footer-item-link{
+//     color: rgba(255, 255, 255, 0.60);
+//   font-family: Roboto;
+//   font-size: 14px;
+//   font-style: normal;
+//   font-weight: 400;
+//   line-height: 24px; /* 171.429% */
+//   letter-spacing: 0.42px;
+//   }
+//   .footer-div{
+//     display: flex;
+//   }
+//   .footer-icon-list{
+//     display: flex;
+//     column-gap: 10px;
+//   }
+//   .footer-icon-title{
+//     color: #FFF;
+//   font-family: Roboto;
+//   font-size: 14px;
+  
+//   font-weight: 700;
+  
+//   letter-spacing: 0.42px;
+//   text-transform: uppercase;
+//   margin-bottom: 20px;
+//   }
+//   .footer-logo-div{
+//     padding-top: 60px;
+//     padding-right: 70px;
+//   }
+//   .footer-icon-div{
+//     padding-top: 72px;
+//   }
+//   .footer-lable{
+//     width: 358px;
+//   height: 50px;
+//   background-color: $color-footer;
+//   border: 1px solid rgba(255, 255, 255, 0.30);
+//   border-radius: 4px;
+//   }
+//   .footer-logo{
+//     font-family: Raleway;
+//     font-weight: 700;
+//     font-size: 26px;
+//     color: $color-features-backgrond;
+//     text-decoration: none;
+//   }
+//   .footer-list {
+//     color: $color-features-backgrond;
+//   }
+//   .footer-icon-item{
+//     width: 44px;
+//     height: 44px;
+//     @extend %flex ;
+//     padding: 12px;
+//     background-color:rgba(255, 255, 255, 0.10);
+//     fill: $color-features-backgrond;
+//     border-radius: 50%;
+//     // transition-property:  background-color fill;
+//     // transition-duration: 250ms;
+//     // transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+//     // transition-delay:250ms;
+//     }
+//     .footer-icon-item:hover  {
+//       // animation-name:changeBgColor ,changeColorFillWhite;
+//       // animation-duration: 250ms;
+//       // animation-fill-mode: forwards;
+//       background-color: $color-hover;
+//       fill: $color-features-backgrond;
+     
+//       border-radius: 50%;
+     
+//       /* padding-left: 12px;
+//       padding-top: 12px;
+//       padding-right: 12px;
+//       padding-left: 12px; */
+    
+//     }
+//     .fotter-spam-div{
+//         display: flex;
+//       }
+//       .fotter-spam-lable-div{
+//         padding-top: 72px;
+//         // padding-left: 93px;
+//       }
+//       .footer-spam-title{
+//         color: #FFF;
+//       font-family: Roboto;
+//       font-size: 14px;
+      
+//       font-weight: 700;
+      
+//       letter-spacing: 0.42px;
+//       text-transform: uppercase;
+//       padding-bottom: 20px;
+//       }
+//       .footer-button{
+//         background-color: $color-hover;
+//         width: 200px;
+//       height: 50px;
+//       border-radius: 4px;
+//       fill: $color-features-backgrond;
+//       color: $color-features-backgrond;
+//       margin-top: 108px;
+//       margin-left: 12px;
+//       }

@@ -51,12 +51,17 @@ menu {
   border: 0;
   clip: rect(0 0 0 0);
 }
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
+// .container {
+//     width: 1200px;
+//     margin: 0 auto;
+//     padding: 0 15px;
   
-  }
+//   }
   body{
     font-family: Roboto;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
   }
