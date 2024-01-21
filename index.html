@@ -25,10 +25,11 @@
   <body>
     <header class="header container">
       <a href="#" class="logo"><span class="spanweb"> Web</span>Studio</a>
-      
+      <!-- <div class="backdrop is-hidden" data-menu> -->
     <div class="menu-container js-menu-container" id="mobile-menu">
-      <button class="menu-toggle js-close-menu">
+      <button class="menu-toggle js-close-menu" >
         <svg
+            class="svg-menu-close"
           fill="currentColor"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +43,60 @@
           ></path>
         </svg>
       </button>
+      <nav class="header-nav-burger">
+        <ul class="header-nav-list-burger">
+          <!-- <input type="checkbox" id="toggle" >
+          <label for="burgermenu" class="burger-label">
+            <span class="toggle-btn"></span>
+          </label> -->
+          <li class="header-nav-item-burger">
+            <a href="#" class="nav-link-burger active">Студія</a>
+          </li>
+          <li class="header-nav-item-burger">
+            <a href="portfolio.html" class="nav-link-burger">Портфоліо</a>
+          </li>
+          <li class="header-nav-item-burger">
+            <a href="#" class="nav-link-burger">Контакти</a>
+          </li>
+        </ul>
+      </nav>
+      <ul class="list-contact-header-buger">
+          <!-- <input type="checkbox" id="toggle" >
+          <label for="burgermenu" class="burger-label">
+            <span class="toggle-btn"></span>
+          </label> -->
+    
+
+        <li class="contact-item-burger">
+          <a href="tel:+380961111111" class="burger-tel"> 
+            <!-- <svg width="16" height="12" class="svg-contact-burger">
+              <use href="img/symbol-defs.svg#icon-smartphone"></use></svg> -->
+              +38 096 111 1 11</a
+          >
+        </li>
+        <li class="contact-item-burger">
+          <a href="mailto:info@devstudio.com" class="burger-mail">
+            <!-- <svg width="16" height="12" class="svg-contact-burger">
+              <use href="img/symbol-defs.svg#icon-envelope"></use></svg> -->
+              info@devstudio.com</a>
+        </li>
+      </ul>
+      <ul class="socialmedia-list">
+        <li class="socialmedia-item">
+          <p class="socialmedia-text">Instagram</p>
+        </li>
+        <li class="socialmedia-item">
+          <p class="socialmedia-text">Twitter</p>
+        </li>
+        <li class="socialmedia-item">
+          <p class="socialmedia-text">Facebook</p>
+        </li>
+        <li class="socialmedia-item">
+          <p class="socialmedia-text">LinkedIn</p>
+        </li>
+      </ul>
 </div>
+<!-- </div> -->
       <nav class="header-nav">
         <ul class="header-nav-list">
           <!-- <input type="checkbox" id="toggle" >
@@ -78,11 +132,11 @@
           >
         </li>
       </ul>
-      <svg width="40" height="40" class="header-burgermenu">
+      <!-- <svg width="40" height="40" class="header-burgermenu">
         <use href="img/symbol-defs.svg#icon-menu"></use>
-      </svg>
+      </svg> -->
       <button
-      class="menu-toggle js-open-menu"
+      class="menu-toggle js-open-menu" 
       aria-expanded="false"
       aria-controls="mobile-menu"
     >
@@ -534,6 +588,7 @@
       </div>
     </footer>
 
-    <script src="./modal.js"></script> -->
+    <script src="./modal.js"></script> 
+    <script src="./menu.js"></script> 
   </body>
-</html> --> --> --> -->
+</html> 
