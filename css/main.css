@@ -602,7 +602,7 @@ img {
   /* background-color: #000000; */
   height: 400px;
   flex-direction: column;
-  background-image: url(../../img/Img\(15\).jpg);
+  background-image: url(../../img/hero.jpg);
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
@@ -618,14 +618,9 @@ img {
   text-align: center;
 }
 
-.hero:nth-child(1) h1::before {
-  content: "";
-  background-image: url(../../img/Img\(15\).jpg);
-}
-
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero:nth-child(1) h1::before {
-    background-image: url("../../img/Header_img2x.jpg");
+    background-image: url("../../img/hero_2x.jpg");
   }
 }
 .hero-button {
