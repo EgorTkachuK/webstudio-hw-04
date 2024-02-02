@@ -3,7 +3,7 @@
     height: 400px;
     @extend %flex ;
     flex-direction: column;
-    background-image: url(../../img/hero.jpg);
+    background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     width: 100%;
     background-size: cover;
@@ -28,7 +28,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .hero:nth-child(1) h1::before {
-    background-image: url('../../img/hero_2x.jpg');
+    background-image: url('../img/hero_2x.jpg');
   }
 }
   
